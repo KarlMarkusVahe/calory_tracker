@@ -41,7 +41,7 @@ const StorageCtrl = (function (){
                 localStorage.setItem("items", JSON.stringify(items))
             }
         }
-}})();
+}})(); //
 
 const itemCtrl = (function (){
     const Item = function (id, name, calories){
